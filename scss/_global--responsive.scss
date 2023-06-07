@@ -1,0 +1,44 @@
+@media screen and (max-width: 480px) {
+    .buttom__options {
+        display: none;
+    }
+
+    .navbar__ale {
+        display: block;
+        position: fixed;
+        width: 100%;
+        background-color: rgba(255,255,255,0.5);
+        backdrop-filter: blur(5px);
+    }
+
+    .navbar__ale--title {
+        color: whitesmoke;
+    }
+
+    .navbar__ale--hamburger {
+        background-color: white;
+    }
+
+    .main__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main__title img{
+        height: 18rem;
+    }
+
+    .cartas {
+        margin-bottom: 1.5rem 
+    }
+
+    .footer__ale {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer__ale--social {
+        display: flex;
+        justify-content: center;
+    }
+}
