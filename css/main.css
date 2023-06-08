@@ -9,10 +9,11 @@ img {
   width: 100%;
 }
 
-body {
+.body__ale {
   height: 100%;
   background-color: #000000;
   font-family: "Ubuntu", sans-serif;
+  overflow-x: hidden;
 }
 
 .navbar__ale {
@@ -111,6 +112,13 @@ li a {
   -moz-transform: rotateX(90deg);
 }
 
+.footer__ale-form {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
 @media screen and (max-width: 480px) {
   .buttom__options {
     display: none;
@@ -160,4 +168,20 @@ li a {
         -ms-flex-pack: center;
             justify-content: center;
   }
+}
+.form__ale {
+  margin: 6rem;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.required-field {
+  color: rgb(237, 38, 38);
+}
+
+.buttom__ale-form {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
